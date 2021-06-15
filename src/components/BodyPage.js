@@ -112,9 +112,9 @@ function BodyPage() {
               }
             }).map((e) => {
               return (
-                <div loading="lazy" className="item" key={e.id}>
+                <div className="item" key={e.id}>
                   <img
-                    loading="lazy"
+                    lazy={true}
                     className="itemPhoto"
                     src={e.item.images.large.url}
                     alt=""
@@ -149,9 +149,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/games/ps4") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""
@@ -187,9 +187,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/games/ps3") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""
@@ -225,9 +225,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/books/history") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""
@@ -265,9 +265,9 @@ function BodyPage() {
               if (zz?.match("/books")) {
                 if (zz?.match("/books").length > 0) {
                   return (
-                    <div loading="lazy" className="item" key={e.id}>
+                    <div className="item" key={e.id}>
                       <img
-                        loading="lazy"
+                        lazy={true}
                         className="itemPhoto"
                         src={e.item.images.large.url}
                         alt=""
@@ -306,9 +306,9 @@ function BodyPage() {
               if (zz?.match("/games")) {
                 if (zz?.match("/games").length > 0) {
                   return (
-                    <div loading="lazy" className="item" key={e.id}>
+                    <div className="item" key={e.id}>
                       <img
-                        loading="lazy"
+                        lazy={true}
                         className="itemPhoto"
                         src={e.item.images.large.url}
                         alt=""
@@ -347,9 +347,9 @@ function BodyPage() {
               if (zz?.match("/xbox360")) {
                 if (zz?.match("/xbox360").length > 0) {
                   return (
-                    <div loading="lazy" className="item" key={e.id}>
+                    <div className="item" key={e.id}>
                       <img
-                        loading="lazy"
+                        lazy={true}
                         className="itemPhoto"
                         src={e.item.images.large.url}
                         alt=""
@@ -386,9 +386,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/games/pc") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""
@@ -424,9 +424,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/games/wiiu") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""
@@ -462,9 +462,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/books/programming") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""
@@ -500,9 +500,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/books/business") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""
@@ -537,9 +537,9 @@ function BodyPage() {
             }).map((e) => {
               if (e.item.category === "/books/cooking") {
                 return (
-                  <div loading="lazy" className="item" key={e.id}>
+                  <div className="item" key={e.id}>
                     <img
-                      loading="lazy"
+                      lazy={true}
                       className="itemPhoto"
                       src={e.item.images.large.url}
                       alt=""

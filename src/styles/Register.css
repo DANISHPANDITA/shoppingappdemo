@@ -1,0 +1,157 @@
+.registerPage {
+  height: 100vh;
+  width: 100vw;
+  background: url(../img/registerPage.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.registrationContainer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  border-radius: 0.8vw;
+  height: 80vh;
+  width: 80vw;
+  background: url(../img/registrationback.png) repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Registration {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formRow {
+  margin-top: 4vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rowContent {
+  display: flex;
+  flex-direction: column;
+}
+.formRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.Registration h1 {
+  margin-top: 3vh;
+  font-style: italic;
+  color: #0e067c;
+}
+.inputLabel {
+  text-align: center;
+  margin-top: 3vh;
+  color: #0e067c;
+  font-size: large;
+  font-weight: 700;
+  font-family: "Segoe UI";
+}
+.inputField {
+  color: rgb(102, 101, 101);
+  border-radius: 0.7vw;
+  outline: none;
+  border: 1px solid grey;
+  width: 25vw;
+  font-size: medium;
+  padding: 0.3vh 0.5vh 0.3vh 1vh;
+  font-weight: bold;
+  font-family: Cochin;
+}
+.submitButton {
+  margin-top: 3vh;
+  width: 20vw;
+  color: white;
+  font-weight: 700;
+  font-family: "Segoe UI";
+  font-size: large;
+  border-radius: 0.4vw;
+  background-color: rgb(177, 25, 177);
+  transition: 250ms ease-in-out;
+  border: none;
+  outline: none;
+}
+.submitButton:hover {
+  background-color: rgb(63, 27, 61);
+  cursor: pointer;
+}
+.errorText {
+  font-size: smaller;
+  font-family: serif;
+  color: #c37b1b;
+  text-decoration: underline;
+  font-weight: 600;
+  text-align: center;
+}
+.dobRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ageCalc {
+  color: #c37b1b;
+  font-size: small;
+}
+.verificationContainer {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.verificationForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.verifyButton {
+  margin-bottom: 2vh;
+  border-radius: 0.4vw;
+  background-color: rgb(8, 116, 56);
+  color: white;
+  font-family: "Segoe UI";
+  font-size: large;
+  padding: 0.5vh 1vh 0.5vh 1vh;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  transition: 250ms ease-in-out;
+}
+.verifyButton:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: rgb(51, 230, 206);
+}
+.emailText {
+  margin-bottom: 1vh;
+  font-size: smaller;
+  font-family: "Segoe UI";
+}
+@media only screen and (max-width: 768px) {
+  .formRow {
+    margin-top: 2vh;
+    width: 95%;
+  }
+  .submitButton {
+    width: 35vw;
+  }
+  .inputLabel {
+    font-size: normal;
+  }
+  .inputField {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .inputLabel {
+    font-size: small;
+  }
+}

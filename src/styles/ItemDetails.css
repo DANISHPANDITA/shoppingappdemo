@@ -1,0 +1,217 @@
+.itemDetailPage {
+  width: 98.7vw;
+  background-color: rgb(214, 255, 167);
+}
+.itemDetailPageFull {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(214, 255, 167);
+}
+.itemDetailPageTop {
+  background-color: rgb(233, 255, 219);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemDetailPageTop h1 {
+  font-family: cursive;
+  color: rgb(11, 44, 31);
+  text-shadow: 1px 1px rgb(41, 121, 17);
+}
+.itemDetailPageTop button {
+  font-family: cursive;
+  margin-right: 1vw;
+  padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+  background-color: rgb(224, 252, 224);
+  border: 1px solid rgb(167, 250, 167);
+  outline: none;
+  transition: 150ms ease-in-out;
+  border-radius: 0.3vw;
+}
+.itemDetailPageTop button:hover {
+  background-color: rgb(241, 252, 241);
+  border: 1px solid rgb(74, 238, 74);
+  cursor: pointer;
+}
+.selectedItemDetails {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.selectedItemDetails h2 {
+  font-family: cursive;
+  color: rgba(63, 49, 3, 0.658);
+  margin-bottom: 3.5vh;
+}
+
+.selectedItemDetails img {
+  margin-left: 2.5vw;
+  height: 40vh;
+  border-radius: 1vw;
+  width: auto;
+  transition: 250ms ease-in-out;
+}
+.selectedItemDetails img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.selectedItemDetailsRight {
+  margin-left: 5vw;
+  padding: 0 1vw;
+}
+.itemFeatureRow {
+  font-family: cursive;
+  text-align: justify;
+  margin-top: 2vh;
+}
+.editionType {
+  margin-top: 3vh;
+  padding: 1.8vw 3vw 1.8vw 3vw;
+  margin-left: 5vw;
+  width: fit-content;
+  font-family: fantasy;
+  border: 3px solid rgb(253, 253, 109);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 245);
+}
+.editionTypeCart {
+  margin-top: 3vh;
+  padding: 1.8vw 3vw 1.8vw 3vw;
+  margin-left: 5vw;
+  width: fit-content;
+  font-family: fantasy;
+  border: 3px solid rgb(253, 253, 109);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 245);
+}
+.editionTypeCart:hover {
+  cursor: pointer;
+  border: 3px solid rgb(255, 255, 38);
+  background-color: rgb(255, 255, 184);
+}
+.ItemDesc {
+  font-family: cursive;
+  font-weight: 600;
+  margin: 2vh 1vh 0 0;
+}
+.ItemDesc span {
+  color: blue;
+  transition: 150ms ease-in-out;
+  padding-bottom: 0.3vh;
+}
+.ItemDesc span:hover {
+  color: rgb(15, 163, 231);
+  border-bottom: 1px solid rgb(15, 163, 231);
+  cursor: pointer;
+}
+.editionPriceCartOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ratingsForProduct {
+  margin-left: 5vw;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ratingsForProduct p {
+  font-family: cursive;
+  margin-right: 2.5vw;
+  color: rgb(6, 73, 78);
+  font-size: large;
+  font-weight: 600;
+}
+.ratingsStar {
+  color: rgb(255, 196, 0);
+}
+.itemDescPara {
+  font-family: cursive;
+  text-align: justify;
+  margin-top: 2vh;
+  padding: 0 1vw 0 1vw;
+}
+.itemDescHead {
+  margin-top: 2vh;
+  font-family: cursive;
+  color: rgb(255, 89, 67);
+  font-style: italic;
+  text-decoration: underline;
+}
+.itemMoreDetailsTable {
+  background-color: rgb(242, 255, 234);
+  width: 60%;
+  margin: 3vh 0 2vh 0;
+  font-family: cursive;
+  border-radius: 0.8vw;
+  padding: 0.8vw 1.5vw 0.8vw 1.5vw;
+  justify-content: space-between;
+}
+.itemMoreDetailsTableRow {
+  background-color: rgb(228, 189, 106);
+  padding: 0 1.8vw 0 1.8vw;
+  margin-bottom: 1vh;
+}
+.itemMoreDetailsTableRow td {
+  padding: 1vh 0.7vh 1vh 0.7vh;
+  text-align: center;
+  color: rgb(2, 80, 2);
+}
+
+.itemMoreDetailsTableRowTitle {
+  font-size: large;
+  font-weight: 900;
+}
+.itemDetailsLoadingPage {
+  height: 100vh;
+  width: 100vw;
+}
+@media only screen and (max-width: 600px) {
+  .itemDetailPageTop h1 {
+    font-size: medium;
+  }
+  .itemDetailPageTop button {
+    padding: 0.3vw 1vw 0.3vw 1vw;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .itemMoreDetailsTable {
+    border-radius: 1.5vw;
+    width: 80%;
+  }
+  .itemMoreDetailsTableRow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1vh;
+    border-radius: 1.2vh;
+  }
+  .itemMoreDetailsTableRowTitle {
+    margin-top: 1.5vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .selectedItemDetails {
+    flex-direction: column;
+  }
+  .selectedItemDetails h2 {
+    margin-top: 2vh;
+    margin-left: 10vw;
+  }
+  .editionType {
+    margin-left: 2.5vw;
+  }
+  .editionType {
+    font-size: small;
+    text-align: center;
+  }
+  .editionTypeCart {
+    font-size: small;
+    text-align: center;
+  }
+}

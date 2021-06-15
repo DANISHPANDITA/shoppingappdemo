@@ -1,0 +1,79 @@
+.userProfile {
+  height: 100vh;
+  background: rgb(219, 205, 240);
+  background: linear-gradient(
+    90deg,
+    rgba(219, 205, 240, 1) 0%,
+    rgba(193, 240, 169, 1) 50%,
+    rgba(235, 252, 255, 1) 100%
+  );
+}
+.avatarProfile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8vh;
+  height: 20vh !important;
+  width: 20vh !important;
+}
+.userDetails {
+  width: 50vw;
+  border: 3px solid grey;
+  background-color: rgb(226, 226, 226);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  border-radius: 0.8vw;
+  padding: 2vw;
+}
+.USERDETAIL {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8vw 1.5vw 0.8vw 1.5vw;
+  border-radius: 0.8vw;
+  transition: 150ms ease-in-out;
+  text-align: justify;
+}
+.USERDETAIL:hover {
+  background-color: rgb(153, 139, 139);
+}
+.USERDETAIL h3,
+p {
+  font-family: "Times New Roman";
+}
+.goToHomeButton {
+  margin-top: 2vh;
+  font-size: large;
+  background-color: #92ccb6;
+  border: none;
+  outline: none;
+  transition: 200ms ease-in-out;
+  border-radius: 0.6vw;
+  padding: 0.3vw 1.5vw 0.3vw 1.5vw;
+  font-family: monospace;
+}
+.goToHomeButton:hover {
+  cursor: pointer;
+  transform: translateY(-1vh);
+  background-color: #00a5a1;
+}
+.editProfileOption {
+  height: 1.5vh !important;
+  margin-left: 0.5vw;
+  cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+  .userDetails {
+    width: 70vw;
+  }
+  .USERDETAIL {
+    flex-direction: column;
+    border-radius: 1.5vw;
+  }
+  .avatarProfile {
+    height: 10vh !important;
+    width: 10vh !important;
+  }
+}

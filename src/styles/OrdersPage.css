@@ -1,0 +1,11 @@
+.orders_page p {
+  margin-top: 10vh;
+  background-color: rgb(209, 43, 43);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  width: fit-content;
+  padding: 1vh 1.8vh 1vh 1.8vh;
+  margin-left: auto;
+  margin-right: auto;
+}

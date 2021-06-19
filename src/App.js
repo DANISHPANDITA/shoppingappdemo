@@ -55,7 +55,7 @@ function App() {
           }
         });
       } else {
-        auth.signout();
+        auth.signOut();
         dispatch(logout());
       }
     });

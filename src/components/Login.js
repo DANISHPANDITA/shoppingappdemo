@@ -49,6 +49,7 @@ function Login() {
                       Address: user.user.Address,
                       timestamp: user.user.timestamp,
                       gender: user.user.Gender,
+                      id:user.id,
                       AvatarSrc: user.user.AvatarSrc,
                     })
                   );
